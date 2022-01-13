@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.medium;
 
 public class LeetCode526 {
     public int result=0;
