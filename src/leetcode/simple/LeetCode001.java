@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 
 public class LeetCode001 {
-    //最简单的两层循环，O(n²)
+    //暴力：最简单的两层循环，O(n²)
     public int[] twoSum01(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < nums.length && j != i; j++) {
@@ -16,7 +16,7 @@ public class LeetCode001 {
         }
         return new int[]{};
     }
-    //利用哈希表实现存取，O(n)
+    //暴力优化：利用哈希表实现存取，O(n)
     public int[] twoSum02(int[] nums, int target) {
         HashMap<Integer,Integer> hashMap=new LinkedHashMap<>();
         for(int i=0;i<nums.length;i++){

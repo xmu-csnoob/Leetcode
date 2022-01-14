@@ -1,11 +1,8 @@
-import leetcode.simple.LeetCode001;
-import leetcode.simple.LeetCode976;
-
-import java.util.Arrays;
+import leetcode.medium.LeetCode003;
 
 public class Main {
     public static void main(String[] args){
-        int[] nums={3,2,4};
-        System.out.println(Arrays.toString(new LeetCode001().twoSum02(nums, 6)));
+        String s="  ";
+        System.out.println(new LeetCode003().lengthOfLongestSubstring01(s));
     }
 }
